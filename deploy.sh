@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
-HOST="${HOST:-root@149.28.133.245}"
+# 服务器地址不写死在仓库里，部署时通过环境变量传入
+HOST="${HOST:?请指定服务器，例如：HOST=root@1.2.3.4 ./deploy.sh}"
 DEST="${DEST:-/var/www/demo-wallet}"
 
 echo "==> 构建"
