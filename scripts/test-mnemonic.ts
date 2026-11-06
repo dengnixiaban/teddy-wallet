@@ -15,10 +15,18 @@ const cases: Array<[string, string, boolean]> = [
 ]
 
 let pass = 0
+const failures: string[] = []
 for (const [name, input, expect] of cases) {
   const got = validateMnemonic(input)
   const ok = got === expect
   if (ok) pass++
+  else failures.push(name)
   console.log(`  ${ok ? '✅' : '❌'} ${name.padEnd(16)} 期望=${expect} 实际=${got}`)
 }
 console.log(`\n  ${pass}/${cases.length} 通过`)
+
+// ★ 断言：有失败就以非 0 退出，否则 CI 会误报成功
+if (failures.length > 0) {
+  console.error(`\n  ❌ 失败的用例: ${failures.join(', ')}`)
+  process.exit(1)
+}

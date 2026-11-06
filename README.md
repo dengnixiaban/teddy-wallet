@@ -1,5 +1,6 @@
-# 🔐 Demo Wallet · 教学演示钱包
+# 🧸 Teddy Wallet · 泰迪钱包
 
+![CI](https://github.com/dengnixiaban/teddy-wallet/actions/workflows/ci.yml/badge.svg)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 ![React](https://img.shields.io/badge/React-19-61dafb?logo=react&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-3178c6?logo=typescript&logoColor=white)

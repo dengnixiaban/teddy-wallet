@@ -109,4 +109,4 @@ export async function decryptVault(vault: EncryptedVault, password: string): Pro
 }
 
 /* ---------- 存储键 ---------- */
-export const VAULT_STORAGE_KEY = 'demo-wallet:vault'
+export const VAULT_STORAGE_KEY = 'teddy-wallet:vault'

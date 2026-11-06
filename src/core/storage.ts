@@ -6,7 +6,7 @@
  */
 import type { EncryptedVault } from './vault'
 
-const KEY = 'demo-wallet:vault'
+const KEY = 'teddy-wallet:vault'
 
 export function saveVault(vault: EncryptedVault): void {
   localStorage.setItem(KEY, JSON.stringify(vault))

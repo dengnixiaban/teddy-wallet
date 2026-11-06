@@ -70,7 +70,7 @@ export default function App() {
   return (
     <div className="app">
       <header className="topbar">
-        <div className="brand">🔐 Demo Wallet</div>
+        <div className="brand">🧸 Teddy Wallet</div>
         <div className="topbar-right">
           {session && (
             <>
