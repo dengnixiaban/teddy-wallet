@@ -1,5 +1,13 @@
 # 🔐 Demo Wallet · 教学演示钱包
 
+![License](https://img.shields.io/badge/license-MIT-blue)
+![React](https://img.shields.io/badge/React-19-61dafb?logo=react&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-3178c6?logo=typescript&logoColor=white)
+![Web Crypto](https://img.shields.io/badge/Web%20Crypto-AES--GCM-8b5cf6)
+![BIP-39](https://img.shields.io/badge/BIP--39%2F44-HD%20Wallet-orange)
+![demo](https://img.shields.io/badge/demo-live-brightgreen)
+
+
 一个从零实现的以太坊钱包，用来学习 **BIP-39 / BIP-44 / 密钥加密 / 本地签名**。
 
 > ⚠️ **这不是生产级钱包。** 未经过安全审计，请勿存入真实资产。
